@@ -1,12 +1,15 @@
+/*Full site apply*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*Body css*/
 body {
     font-family: 'Gantari', sans-serif;
 }
 
+/*Top Section css*/
 .top-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/donation13.jpg");
     background-repeat: no-repeat;
@@ -14,20 +17,23 @@ body {
     height: 100vh;
 }
 
+/*Section Title css*/
 .section-title {
     font-size: 60px;
     margin-bottom: 20px;
 }
 
+/*Section Paragraph css*/
 .section-paragraph {
     font-size: 20px;
     margin-bottom: 30px;
 }
 
+/*Text Color css*/
 .text-white {
     color: white;
 }
-
+/*Title Area css*/
 .title-area {
     text-align: center;
     width: 60%;
@@ -35,6 +41,7 @@ body {
     align-items: center;
 }
 
+/*Button Link css*/
 .button-pink {
     background-color: tomato;
     padding: 15px;
@@ -47,10 +54,12 @@ body {
     margin-top: 30px;
 }
 
+/*Donate Amount Section css*/
 .donate-amount-section {
     height: 700px;
 }
 
+/*Title Area donate amount css*/
 .title-area-donate-amount {
     text-align: center;
     width: 80%;
@@ -58,12 +67,14 @@ body {
     align-items: center;
 }
 
+/*Amount Div css*/
 .amount-div {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
 }
 
+/*Amount Tk css*/
 .amount-tk {
     width: 17%;
     float: left;
@@ -75,18 +86,21 @@ body {
     font-size: 25px;
 }
 
+/*Amount Tk Danger css*/
 .amount-tk-danger {
     background-color: #F37E7E26;
     border: 3px solid #dc2727;
     color: #dc2727;
 }
 
+/*Input Div css*/
 .input-div {
     width: 100%;
     margin-top: 220px;
     text-align: center;
 }
 
+/*Take Amount css*/
 .take-amount {
     border: none;
     border-bottom: 2px solid #ada8a8;
@@ -96,10 +110,12 @@ body {
     padding: 15px;
 }
 
+/*Donate Plan css*/
 .donate-plan {
     height: 700px;
 }
 
+/*Title Area donate plan css*/
 .title-area-donate-plan {
     text-align: center;
     width: 80%;
@@ -107,11 +123,13 @@ body {
     align-items: center;
 }
 
+/*Plan Area css*/
 .plan-area {
     width: 100%;
     text-align: left;
 }
 
+/*plan css*/
 .plan {
     width: 23%;
     float: left;
@@ -121,31 +139,38 @@ body {
     padding: 40px;
 }
 
+/*Plan Bg Soft Green Css*/
 .plan-bg-soft-green {
     background-color: #edf5f6;
 }
 
+/*Plan Bg soft red css*/
 .plan-bg-soft-red {
     background-color: #ffeeee;
 }
 
+/*Plan Bg soft Yellow css*/
 .plan-bg-soft-yellow {
     background-color: #fff4d6;
 }
 
+/*Plan Img css*/
 .plan-img {
     margin-top: 25px;
 }
 
+/*Plan title css*/
 .plan-title {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/*Our services css*/
 .our-services {
-    height: 700px;
+    height: 800px;
 }
 
+/*Title Area our service css*/
 .title-area-our-services {
     text-align: center;
     width: 80%;
@@ -153,30 +178,36 @@ body {
     align-items: center;
 }
 
+/*our service div css*/
 .our-services-div {
     width: 100%;
 }
 
+/*Service css*/
 .services {
     width: 23%;
     float: left;
     margin: 1%;
-    height: 120px;
+    height: 160px;
     border-radius: 7px;
     padding: 40px;
     text-align: center;
+    border: 1px solid #aaaaaa;
+    box-shadow: 5px 5px 5px #aaaaaa;
 }
-
+/*Service Title css*/
 .service-title {
     margin: 10px;
 }
 
+/*Service Paragraph css*/
 .service-paragraph {
     font-size: 15px;
     color: #595757;
     margin-top: 10px;
 }
 
+/*Service hr css*/
 .service-hr {
     width: 60px;
     height: 1px;
@@ -185,10 +216,12 @@ body {
     margin: 0 auto;
 }
 
+/*Get Update css*/
 .get-update {
     height: 700px;
 }
 
+/*Get Update Title area css*/
 .title-area-get-update {
     text-align: center;
     width: 80%;
@@ -196,16 +229,18 @@ body {
     align-items: center;
 }
 
+/*Update input area css*/
 .update-input-area {
     background-color: #fff4d6;
     height: 200px;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
+/*Update input css*/
 .update-input {
     height: 61px;
-    margin: 5% auto;
+    margin: 75px auto;
     width: 274px;
     background: #d9d9d9;
     border: none;
@@ -214,6 +249,7 @@ body {
     border-radius: 5px 0px 0px 5px;
 }
 
+/*Update input button css*/
 .update-input-button {
     background-color: tomato;
     padding: 17px;
@@ -227,6 +263,7 @@ body {
     margin-left: -6px;
 }
 
+/*Footer css*/
 .footer {
     width: 100%;
     height: 200px;
@@ -235,17 +272,20 @@ body {
     bottom: 0;
 }
 
+/*Footer h1 css*/
 .footer-h1 {
     color: #ff5959;
     font-size: 50px;
     margin-bottom: 10px;
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
+/*Footer paragraph css*/
 .footer-paragraph {
     color: #7c9eb8;
 }
 
+/*Footer Title area css*/
 .title-area-footer {
     padding: 30px;
 }
